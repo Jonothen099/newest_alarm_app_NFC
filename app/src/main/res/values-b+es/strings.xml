@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- App -->
+	<string name="app_name">NFC Despertador</string>
+	<string name="app_version">@string/versionName</string>
+	<string name="permission_schedule_exact_alarm_request">Esta app no tiene el permiso <b>Programar Alarma Exacta</b> activada.\n\nSin este permiso, las alarmas no podrán ejecutarse cuando la app no esté enfocada.\n\n¿Le gustaría continuar a la siguiente pantalla para habilitar este permiso?</string>
+
+
+	<!-- What's new -->
+	<string name="item_1">(Intentado) Solución del problem en unos dispositivos <b>Android 12</b> donde no se activaba una alarma. Afectó a los siguientes teléfonos:\n\nGoogle Pixel 5, Samsung Galaxy S20, Samsung Galaxy S21, Samsung Galaxy Z Fold3, Redmi K40 Pro, POCO X3 Pro</string>
+
+
+
+	<!-- Consolidate -->
+	<string name="version">Versión</string>
+	<string name="am">AM</string>
+	<string name="pm">PM</string>
+	<string name="none">Ninguno</string>
+	<string name="settings">Configuración</string>
+	<string name="show_next_alarm">Muestra próxima alarma</string>
+
+
+
+	<!-- States -->
+	<string name="state_unknown">Desconocido</string>
+	<string name="state_off">Desactivada</string>
+
+
+
+	<!-- Actions -->
+	<string name="action_alarm_snooze">Posponer</string>
+	<string name="action_alarm_dismiss">Descartar</string>
+	<string name="action_alarm_copy">Copear</string>
+	<string name="action_alarm_delete">Borrar</string>
+	<string name="action_ok">OK</string>
+	<string name="action_cancel">Cancelar</string>
+	<string name="action_clear">Despejar</string>
+	<string name="action_default">Original</string>
+	<string name="action_rate_now">Califica Ahora</string>
+	<string name="action_rate_later">Al Rato</string>
+	<string name="action_rate_never">No, Gracias</string>
+	<string name="action_show_nfc_tag_id">Muestra etiqueta de NFC</string>
+	<string name="action_use_any">Usa cualquier</string>
+	<string name="action_undo">Deshacer</string>
+	<string name="action_browse">Navegar</string>
+	<string name="action_previous_folder">Carpeta anterior</string>
+
+
+
+	<!-- Messages -->
+	<string name="message_playlist">¿Quieres tocar toda la música de esta carpeta?</string>
+	<string name="message_rate_my_app">Si haz disfrutado la <b>NFC Despertador</b>, por favor tómate un momento para calificarla. ¡Gracias por su apoyo! </string>
+	<string name="message_nfc_request">Por favor, habilite la NFC para descartar la alarma</string>
+	<string name="message_nfc_required">NFC requerido</string>
+	<string name="message_nfc_optional">NFC opcional</string>
+	<string name="message_scan_nfc_tag">Escanee una etiqueta de NFC única (experimental), o usa cualquier etiqueta para descartar esta alarma cuando suena.</string>
+	<string name="message_show_nfc_tag_id">Id:</string>
+	<string name="message_any_nfc_tag_id">Cualquier etiqueta de NFC aceptada</string>
+	<string name="message_no_alarms_scheduled">No hay alarmas programadas</string>
+	<string name="message_repeat_disabled">No repite la alarma</string>
+	<string name="message_repeat_enabled">Repite la alarma</string>
+	<string name="message_vibrate_disabled">Vibrar desactivado</string>
+	<string name="message_vibrate_enabled">Vibrar habilitado</string>
+	<string name="message_alarm_copy">Alarma copiada</string>
+	<string name="message_alarm_delete">Alarma borrada</string>
+	<string name="message_alarm_restore">Alarma restaurada</string>
+	<string name="message_alarm_dismiss">Alarma descartada</string>
+	<string name="message_alarm_snooze">Alarma posponada</string>
+	<string name="message_statistics_started_on">Las estad?sticas empezaron en</string>
+	<string name="message_bullet">\u25BA</string>
+
+
+
+	<!-- Error messages -->
+	<string name="error_message_active_delete">Incapaz de borrar una alarma activa</string>
+	<string name="error_message_active_modify">Incapaz de modificar una alarma activa</string>
+	<string name="error_message_max_alarms">Número máximo de alarmas creadas</string>
+	<string name="error_message_nfc_mismatch">Etiqueta no coincide con la etiqueta de NFC guardada.</string>
+	<string name="error_message_nfc_unsupported">Tu teléfono no soporta NFC</string>
+	<string name="error_message_snooze">Incapaz de posponer la alarma</string>
+	<string name="error_message_snoozed_delete">Incapaz de borrar una alarma posponada</string>
+	<string name="error_message_snoozed_modify">Incapaz de modificar una alarma posponada</string>
+	<string name="error_message_select_color">Color inválido</string>
+	<string name="error_message_play_audio">Incapaz de tocar audio</string>
+	<string name="error_message_play_file">Incapaz de tocar la canción seleccionada</string>
+
+
+
+	<!-- Titles -->
+	<string name="title_alarm_activity">Desactivar Alarma</string>
+	<string name="title_rate_my_app">Califica esta app</string>
+	<string name="title_scan_nfc_tag">Escanea una etiqueta de NFC</string>
+	<string name="title_name">Nombre de la alarma</string>
+	<string name="title_days">Seleccione los días</string>
+	<string name="title_color">Elige un color</string>
+	<string name="title_audio_option">Seleccione una opci?n de audio</string>
+	<string name="title_audio_source">Seleccione una fuente de audio</string>
+	<string name="title_gradually_increase_volume">Elige aumentar gradualmente el volumen</string>
+	<string name="title_restrict_volume">Elige restringir el volumen</string>
+	<string name="title_tts">Seleccione opciones de texto-a-voz</string>
+	<string name="title_next_alarm_format">Selecciona un estilo</string>
+	<string name="title_speak_frequency">Seleccione la frequencia de hablar</string>
+	<string name="title_folder_selected">Seleccionaste una carpeta</string>
+	<string name="title_active_alarm">Alarmas activas</string>
+	<string name="title_missed_alarm">Alarmas perdidas</string>
+	<string name="title_upcoming_alarm">Próximas alarmas</string>
+	<string name="title_dismissed_alarms">Alarmas descartadas</string>
+	<string name="title_missed_alarms">Alarmas perdidas</string>
+	<string name="title_snoozed_alarms">Alarmas posponadas</string>
+	<string name="title_created_alarms">Alarmas creadas</string>
+	<string name="title_deleted_alarms">Alarmas borradas</string>
+	<string name="title_current_alarms">Actual</string>
+	<string name="title_whats_new">Qué hay de Nuevo</string>
+
+
+
+	<!-- Descriptions -->
+	<string name="description_alarm_activity">Escanea una etiqueta de NFC para descartar la alarma.</string>
+	<string name="description_no_notification">No mostrar notificaciones.</string>
+	<string name="description_upcoming_alarm">Alarmas programadas.</string>
+	<string name="description_missed_alarm">Alarmas desactivadas automaticamente.</string>
+	<string name="description_active_alarm">Alarmas que están activas.</string>
+	<string name="description_color">Color</string>
+	<string name="description_day_button_style_filled">Filled-in buttons.</string>
+	<string name="description_day_button_style_outlined">Outlined buttons.</string>
+	<string name="description_media">Música o tono de llamada</string>
+	<string name="example_name">Trabajo</string>
+
+
+
+	<!-- Summary day names -->
+	<string name="dow_everyday">Todos los días</string>
+	<string name="dow_weekdays">Días de semana</string>
+	<string name="dow_weekend">Fines de semana</string>
+	<string name="dow_today">Hoy</string>
+	<string name="dow_tomorrow">Mañana</string>
+
+
+
+	<!-- Miscellaneous -->
+	<string name="next_alarm">Próxima alarma</string>
+	<string name="will_run">Va sonar</string>
+	<string name="time_in">en</string>
+    <string name="time_on" />
+	<string name="is_disabled">está desactivada</string>
+
+
+
+	<!-- Content descriptions -->
+	<string name="cd_ic_floating_action_button">Seleccione para crear una nueva alarma.</string>
+	<string name="cd_ic_volume">Slide to change the volume of the alarm.</string>
+	<string name="cd_ic_color_example">Example of the selected color.</string>
+	<string name="cd_ic_file_entry">Type of entry being displayed, such as a file or directory.</string>
+	<string name="cd_ic_color_selector">Select a color for the color picker</string>
+	<string name="cd_ic_shader_selector">Select a shade for the color picker</string>
+
+
+
+	<!-- Plurals -->
+	<plurals name="alarm">
+		<item quantity="one">alarma</item>
+		<item quantity="other">alarmas</item>
+	</plurals>
+
+	<plurals name="missed_alarm">
+		<item quantity="one">Alarma perdida</item>
+		<item quantity="other">@string/title_missed_alarm</item>
+	</plurals>
+
+	<plurals name="upcoming_alarm">
+		<item quantity="one">@string/next_alarm</item>
+		<item quantity="other">@string/title_upcoming_alarm</item>
+	</plurals>
+
+	<plurals name="unit_day">
+		<item quantity="one">día</item>
+		<item quantity="other">días</item>
+	</plurals>
+
+	<plurals name="unit_hour">
+		<item quantity="one">hora</item>
+		<item quantity="other">horas</item>
+	</plurals>
+
+	<plurals name="unit_minute">
+		<item quantity="one">minuto</item>
+		<item quantity="other">minutos</item>
+	</plurals>
+
+	<plurals name="unit_second">
+		<item quantity="one">segundo</item>
+		<item quantity="other">segundos</item>
+	</plurals>
+
+
+
+	<!-- ************* -->
+	<!-- Main Settings -->
+	<!-- ************* -->
+
+	<string name="general_setting">Generala</string>
+	<string name="general_setting_summary">Ajustas generales</string>
+
+	<string name="appearance_setting">Apariencia</string>
+	<string name="appearance_setting_summary">Personaliza la aplicacion</string>
+
+	<string name="misc_setting">Miscelaneo</string>
+	<string name="misc_setting_summary">Agrega caracteristicas geniales</string>
+
+	<string name="stats_setting">Estad?sticas</string>
+	<string name="stats_setting_summary">Mira cu?nto tiempo has posponada sus alarmas, y m?s</string>
+
+	<string name="about_setting">Acerca</string>
+	<string name="about_setting_summary">Informacion acerca de esta aplicacion</string>
+
+
+
+	<!-- **************** -->
+	<!-- General settings -->
+	<!-- **************** -->
+
+	<!-- Categories -->
+	<string name="dismiss_options_category">Descartar opciones</string>
+	<string name="snooze_options_category">Posponer opciones</string>
+	<string name="default_alarm_category">Alarm predeterminada</string>
+
+
+	<!-- Auto dismiss duration -->
+	<string name="auto_dismiss">Desactivacion automatica</string>
+
+
+	<!-- Max number of snoozes -->
+	<string name="max_snooze">Dormitar la máxima numero de veces</string>
+
+
+	<!-- Snooze duration -->
+	<string name="snooze_duration">Duracion de dormitar</string>
+
+
+	<!-- Easy snooze -->
+	<string name="easy_snooze">Dormitar fácilmente</string>
+	<string name="easy_snooze_true">Dormitar tocando en cualquier lugar.</string>
+	<string name="easy_snooze_false">Dormitar normalmente.</string>
+
+
+	<!-- Default alarm name -->
+	<string name="alarm_name">Nombre</string>
+
+
+	<!-- Default alarm days -->
+	<string name="alarm_days">Días</string>
+
+
+	<!-- Default alarm repeat -->
+	<string name="alarm_repeat">Repetir</string>
+	<string name="alarm_repeat_true">Repetir la alarma.</string>
+	<string name="alarm_repeat_false">Deshabilitar la alarma después de se ejecucion.</string>
+
+
+	<!-- Default alarm use NFC -->
+	<string name="alarm_use_nfc">Usa NFC</string>
+	<string name="alarm_use_nfc_true">NFC es requerido para desactivar la alarma.</string>
+	<string name="alarm_use_nfc_false">Desactivar la alarma normalmente.</string>
+
+
+	<!-- Default alarm vibrate -->
+	<string name="alarm_vibrate">Vibra</string>
+	<string name="alarm_vibrate_true">Vibra el telefono.</string>
+	<string name="alarm_vibrate_false">Que no vibre el telefono.</string>
+
+
+	<!-- Default alarm sound -->
+	<string name="alarm_sound">Sonido</string>
+	<string name="alarm_sound_summary">@string/none</string>
+
+
+	<!-- Default alarm volume and audio source -->
+	<string name="alarm_volume">Volumen</string>
+
+
+
+	<!-- ******************* -->
+	<!-- Appearance settings -->
+	<!-- ******************* -->
+
+	<!-- Categories -->
+	<string name="color_category">Colores</string>
+	<string name="notification_category">Notificaciónes</string>
+	<string name="style_category">Style</string>
+	<string name="tweaks_category">Modificaciónes</string>
+
+
+	<!-- Day button style -->
+	<string name="day_button_style">Day buttons</string>
+
+
+	<!-- Start Week On -->
+	<string name="start_week_on">Empieza la semana&#8230;</string>
+
+
+	<!-- Theme color -->
+	<string name="theme_color">Tema</string>
+	<string name="theme_color_summary">Color del tema.</string>
+
+
+	<!-- Name color -->
+	<string name="name_color">@string/alarm_name</string>
+	<string name="name_color_summary">p.ej. Trabajo</string>
+
+
+	<!-- Days color -->
+	<string name="days_color">@string/alarm_days</string>
+	<string name="days_color_summary">p.ej. Lun &#8231; Mar &#8231; Mie &#8231; Jue &#8231; Vie</string>
+
+
+	<!-- Time color -->
+	<string name="time_color">Tiempo</string>
+	<string name="time_color_summary">p.ej. 12:30</string>
+
+
+	<!-- AM color -->
+	<string name="am_color_summary">Coloriada si esta en la hora de alarma AM.</string>
+
+
+	<!-- PM color -->
+	<string name="pm_color_summary">Coloriada si esta en la hora de alarma PM.</string>
+
+
+	<!-- Missed alarm notifications -->
+	<string name="missed_alarm_true">Muestra notificacions para alarmas perdidas.</string>
+
+
+	<!-- Upcoming alarm notifications -->
+	<string name="upcoming_alarm_true">Muestra notificaciones para alarmas programadas.</string>
+
+
+	<!-- Expand new alarm card -->
+	<string name="expand_new_alarm">Expandir alarmas nuevas</string>
+	<string name="expand_new_alarm_true">Alarmas copiadas o creadas con el signo de &#8220;+&#8221; se expanden.</string>
+	<string name="expand_new_alarm_false">Alarmas no se expanden.</string>
+
+
+	<!-- Time remaining format -->
+	<string name="next_alarm_format">Estilo de la proxima alarma&#8230;</string>
+	<string name="next_alarm_format_time_in">Próxima alarma en 7 horas 30 minutos</string>
+	<string name="next_alarm_format_time_on">Próxima alarma Lun 7:00 AM</string>
+
+
+	<!-- Show alarm information -->
+	<string name="show_alarm_info">Muestra informacion de alarma</string>
+	<string name="show_alarm_info_true">Muestra el nombre de la alarma abajo de la pantalla cuando la alarma suena.</string>
+	<string name="show_alarm_info_false">No mostrar informacion de alarma.\n</string>
+
+
+
+	<!-- ********************** -->
+	<!-- Miscellaneous settings -->
+	<!-- ********************** -->
+
+	<!-- Categories -->
+	<string name="music_category">Música</string>
+
+
+	<!-- Shuffle playlist -->
+	<string name="shuffle_playlist">Toco la música aleatoriamente</string>
+	<string name="shuffle_playlist_true">Mezclar la música en la carpeta.</string>
+	<string name="shuffle_playlist_false">Toca la música en orden.</string>
+	<string name="shuffle_playlist_note">Solo aplicable para las alarmas con una carpeta de música seleccionada.</string>
+
+
+	<!-- Speak to me -->
+	<string name="speak_to_me">Habla me</string>
+	<string name="speak_to_me_true">Decir la hora cuando la alarma suena.</string>
+	<string name="speak_to_me_false">No decir nada.</string>
+
+
+	<!-- Speak frequency -->
+	<string name="speak_frequency">Frequencia de hablar</string>
+
+
+	<!-- Restrict volume -->
+	<string name="restrict_volume_true">No podrá cambiar el volumen cuando la alarma esté activa. (Experimental)</string>
+	<string name="restrict_volume_false">El volumen se puede cambiar libremente cuando la alarma está activa.</string>
+
+
+	<!-- Gradually increase volume -->
+	<string name="gradually_increase_volume_true">El volumen aumentará gradualmente hasta que se alcance el nivel de volumen de la alarma, cuando la alarma esté activa. (Experimental)</string>
+	<string name="gradually_increase_volume_false">El volumen se ajustará al nivel de volumen de la alarma, cuando la alarma esté activa.</string>
+
+
+
+	<!-- ************** -->
+	<!-- About settings -->
+	<!-- ************** -->
+
+	<!-- Categories -->
+	<string name="app_category">Aplicacion</string>
+	<string name="permissions_category">Permisos</string>
+
+
+	<!-- App developer -->
+	<string name="author_title">Creador de la aplicacion</string>
+	<string name="author">Gabe Gonzalez</string>
+
+
+	<!-- App version -->
+	<string name="version_title">Version</string>
+
+
+	<!-- NFC permission -->
+	<string name="about_nfc">NFC</string>
+	<string name="about_nfc_summary">(Opcional) Permite a la app detectar las etiquetas de los compos de la communicacion cercana.</string>
+
+	
+	<!-- READ_EXTERNAL_STORAGE permission -->
+	<string name="about_storage">Almacenamiento</string>
+	<string name="about_storage_summary">(Opcional) Leer la música que esta en el telefono.</string>
+
+
+	<!-- VIBRATE permission -->
+	<string name="about_vibrate">@string/alarm_vibrate</string>
+	<string name="about_vibrate_summary">(Opcional) Permite que la app vibre el telefono.</string>
+
+
+	<!-- SET_ALARM permission -->
+	<string name="about_set_alarm">Ajustar alarma</string>
+	<string name="about_set_alarm_summary">(Requerido) Permite que la app establesqua una alarma.</string>
+
+
+	<!-- RECEIVE_BOOT_COMPLETED permission -->
+	<string name="about_boot">Ejecutarse al inicio</string>
+	<string name="about_boot_summary">(Requerido) Restaurar alarmas cuando el telefono este encendido. Android va eliminar alarmas cuando el telefono se apage.</string>
+
+
+	<!-- WAKE_LOCK -->
+	<string name="about_wakelock">Wakelock</string>
+	<string name="about_wakelock_summary">(Requerido) Evitar que el dispositivo entre en estado de inactividad para que las alarmas continúan de sonar.</string>
+
+
+	<!-- USE_FULL_SCREEN_INTENT permission -->
+	<string name="about_full_screen_intent">Pantalla completa</string>
+	<string name="about_full_screen_intent_summary">(Requerido) Permite que la app usa la pantalla completa cuando una alarma esta activada.</string>
+
+
+	<!-- FOREGROUND_SERVICE permission -->
+	<string name="about_foreground_service">Servicio en primer plano</string>
+	<string name="about_foreground_service_summary">(Requerido) Permite que la app esta en primer plano cuando una alarma esta activada.</string>
+
+
+	<!-- Spotify -->
+	<string name="frg_spotify_search_hint">Busca spotify&#8230;</string>
+	<!--
+	<string name="frg_spotify_albums">Albums</string>
+	<string name="frg_spotify_playlists">Playlists</string>
+	<string name="frg_spotify_top_artists">Top Artists</string>
+	<string name="frg_spotify_top_tracks">Top Tracks</string>
+	-->
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:ignore="RtlSymmetry">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:paddingTop="?dialogPreferredPadding"
+		android:paddingBottom="?dialogPreferredPadding">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:orientation="vertical"
+			android:scrollbars="vertical">
+
+			<RadioGroup
+				style="@style/RadioGroup"
+				android:id="@+id/radio_group"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/huge"
+				android:paddingStart="@dimen/huge">
+			</RadioGroup>
+
+		</LinearLayout>
+	</ScrollView>
+
+	<include layout="@layout/frg_buttons" />
+
+</LinearLayout>

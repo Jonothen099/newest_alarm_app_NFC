@@ -1,0 +1,27 @@
+----
+TODO
+----
+
+* Prompt to ignore battery optimization?
+
+* PowerManager.isIgnoringBatteryOptimization()
+
+* Try not to start activity when starting foreground service. Just show the
+  notification.
+
+* There are a lot of classes like NacTextToSpeech that have a lot of setting an
+  object to null when cleaning up, and conversely, checking if it's null and
+  setting up.
+
+* Implement Spotify
+
+------
+Issues
+------
+
+* When starting off at a music file. Trying to go up a directory does not work.
+
+----
+DONE
+----
+

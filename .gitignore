@@ -1,0 +1,14 @@
+build
+captures
+.gradle
+.idea
+
+app/my-new-release-key.jks
+keystore.properties
+local.properties
+*.iml
+*.swp
+*.apk
+*.aab
+.DS_Store
+.externalNativeBuild

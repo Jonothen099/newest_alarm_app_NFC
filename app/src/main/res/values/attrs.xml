@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<attr name="colorCard" format="reference" />
+	<attr name="colorCardExpanded" format="reference" />
+	<attr name="nacWidth" format="reference|dimension" />
+	<attr name="nacHeight" format="reference|dimension" />
+	<attr name="nacSpacing" format="reference|dimension" />
+
+	<declare-styleable name="NacDayButton">
+		<attr name="nacWidth" />
+		<attr name="nacHeight" />
+	</declare-styleable>
+
+	<declare-styleable name="NacColorPicker">
+		<attr name="nacWidth" />
+		<attr name="nacHeight" />
+		<attr name="nacSpacing" />
+	</declare-styleable>
+
+</resources>

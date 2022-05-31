@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingStart="?dialogPreferredPadding"
+	android:paddingEnd="?dialogPreferredPadding"
+	android:clipChildren="false">
+
+	<com.nfcalarmclock.colorpicker.NacColorPicker
+		android:id="@+id/color_picker"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/normal"
+		android:layout_marginBottom="@dimen/large"
+		android:layout_marginStart="@dimen/normal"
+		android:layout_marginEnd="@dimen/normal"
+		app:nacSpacing="@dimen/isz_large"
+		/>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/large"
+		android:orientation="horizontal"
+		android:layout_gravity="center_horizontal">
+
+		<ImageView
+			android:id="@+id/color_example"
+			android:layout_width="@dimen/isz_large"
+			android:layout_height="@dimen/isz_large"
+			android:layout_gravity="center_vertical"
+			android:layout_marginEnd="@dimen/normal"
+			android:contentDescription="@string/cd_ic_color_example"
+			android:src="@drawable/color_example"
+			/>
+
+		<EditText
+			style="@style/Widget.TextView.Primary"
+			android:id="@+id/color_value"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="fill"
+			android:inputType="textNoSuggestions|textAutoComplete"
+			android:hint="@string/description_color"
+			android:maxLines="1"
+			android:maxLength="@integer/max_hex_length"
+			android:importantForAutofill="no">
+		</EditText>
+
+	</LinearLayout>
+
+</LinearLayout>
